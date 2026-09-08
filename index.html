@@ -1,20 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta
-        name="description"
-        content="Numbers & Figures — social games built for playing together."
-    >
-    <title>Numbers & Figures</title>
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
-    <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Numbers & Figures — social games built for playing together."
+  >
+
+  <title>Numbers & Figures</title>
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family:
+        Inter,
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      min-height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background: #171329;
+      color: #f7f5ff;
+    }
+
+    main {
+      flex: 1;
+      display: grid;
+      place-items: center;
+      padding: 48px 24px;
+    }
+
+    .hero {
+      width: min(100%, 1024px);
+      text-align: center;
+    }
+
+    .hero img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+    }
+
+    .publisher {
+      margin: 24px 0 0;
+      color: rgba(247, 245, 255, 0.72);
+      font-size: 14px;
+    }
+
+    footer {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px 24px 28px;
+      font-size: 13px;
+    }
+
+    footer a {
+      color: rgba(247, 245, 255, 0.65);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        padding: 24px 16px;
+      }
+
+      .hero img {
+        border-radius: 14px;
+      }
+
+      footer {
+        gap: 14px;
+        flex-wrap: wrap;
+      }
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Numbers &amp; Figures</h1>
-    <h2>Coming soon</h2>
+  <main>
+    <section class="hero">
+      <img
+        src="/you-know-what-i-mean-logo-art.webp"
+        alt="You Know What I Mean?"
+        width="1024"
+        height="742"
+      >
+
+      <p class="publisher">
+        A game by Numbers &amp; Figures
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="/privacy-policy.html">Privacy Policy</a>
+    <a href="/terms-of-service.html">Terms of Service</a>
+  </footer>
 </body>
 </html>
