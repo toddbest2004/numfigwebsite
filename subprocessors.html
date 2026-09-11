@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Subprocessors used by Numbers & Figures to operate its games and services."
+  >
+
+  <title>Numbers & Figures - Subprocessors</title>
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      background: #2d175d;
+      color: #f7f5ff;
+      font-family:
+        Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(calc(100% - 48px), 900px);
+      margin: 0 auto;
+      padding: 64px 0;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+    }
+
+    h2 {
+      margin-top: 40px;
+    }
+
+    p,
+    li {
+      line-height: 1.65;
+    }
+
+    a {
+      color: #ffffff;
+    }
+
+    .updated {
+      margin-top: 0;
+      color: #d5cfee;
+    }
+
+    .table-container {
+      width: 100%;
+      margin: 32px 0;
+      overflow-x: auto;
+      border: 1px solid rgba(255, 255, 255, 0.24);
+      border-radius: 12px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    th,
+    td {
+      padding: 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+      text-align: left;
+      vertical-align: top;
+      line-height: 1.55;
+    }
+
+    th {
+      background: rgba(255, 255, 255, 0.1);
+      font-weight: 700;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px 24px 28px;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        width: min(calc(100% - 32px), 900px);
+        padding: 40px 0;
+      }
+
+      th,
+      td {
+        min-width: 180px;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Subprocessors</h1>
+
+    <p class="updated">
+      Last updated: September 11, 2026
+    </p>
+
+    <p>
+      Numbers &amp; Figures LLC uses the following service providers to
+      operate You Know What I Mean?, provide product analytics, and respond
+      to support requests.
+    </p>
+
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Provider</th>
+            <th scope="col">Service and purpose</th>
+            <th scope="col">Data processed</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Salesforce, Inc. (Heroku)</td>
+            <td>
+              Application hosting, infrastructure, and temporary game-session
+              storage, including Heroku Key-Value Store.
+            </td>
+            <td>
+              Live game and connection information, temporary session state,
+              Discord information required to operate active sessions, and
+              server logs.
+            </td>
+          </tr>
+
+          <tr>
+            <td>PostHog, Inc.</td>
+            <td>Product analytics and technical telemetry.</td>
+            <td>
+              Gameplay and usage events, technical information, and random
+              session-scoped analytics identifiers. Raw Discord user, server,
+              and session identifiers are not provided to PostHog.
+            </td>
+          </tr>
+
+          <tr>
+            <td>Google LLC (Google Workspace)</td>
+            <td>Business email and customer-support communications.</td>
+            <td>
+              Email addresses, message contents, attachments, and other
+              information users choose to provide when contacting us.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>
+      These providers are authorized to process data only as necessary to
+      provide their services to Numbers &amp; Figures LLC and are subject to
+      applicable contractual data-protection and security obligations.
+    </p>
+
+    <p>
+      We may update this list when our service providers change. Questions
+      about our service providers or privacy practices can be sent to
+      <a href="mailto:contact@numbersandfigures.com">
+        contact@numbersandfigures.com
+      </a>.
+    </p>
+  </main>
+
+  <footer>
+    <a href="/">Home</a>
+    <a href="/privacy.html">Privacy Policy</a>
+    <a href="/terms.html">Terms of Service</a>
+  </footer>
+</body>
+</html>
