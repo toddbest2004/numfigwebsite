@@ -6,4 +6,4 @@ permalink: /terms.html
 
 # Terms of Service
 
-Your terms go here.
+Coming soon
