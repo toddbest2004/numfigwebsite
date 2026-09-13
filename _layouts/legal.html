@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,10 +8,10 @@
 
   <meta
     name="description"
-    content="Numbers & Figures — social games built for playing together."
+    content="{{ page.title }} for Numbers & Figures LLC."
   >
 
-  <title>Numbers & Figures - Terms of Service</title>
+  <title>Numbers & Figures - {{ page.title }}</title>
 
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
@@ -19,15 +21,15 @@
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <main>
-        <h1>Terms of Service</h1>
-        <p>Coming soon.</p>
-    </main>
+  <main class="legal-main">
+    {{ content }}
+  </main>
 
-    <footer>
-        <a href="/">Home</a>
-        <a href="/privacy.html">Privacy Policy</a>
-        <a href="/terms.html">Terms of Service</a>
-      </footer>
+  <footer>
+    <a href="/">Home</a>
+    <a href="/privacy.html">Privacy Policy</a>
+    <a href="/terms.html">Terms of Service</a>
+    <a href="/subprocessors.html">Subprocessors</a>
+  </footer>
 </body>
 </html>
